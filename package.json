@@ -33,10 +33,11 @@
     "uuid": "^8.3.2",
     "winston": "^3.3.3",
     "xss": "^1.0.8",
-    "postgrator-cli": "^4.0.0"
+    "postgrator-cli": "^4.0.0",
+    "nodemon": "^2.0.4"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    
   },
   "directories": {
     "test": "test"
