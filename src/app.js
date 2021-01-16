@@ -74,7 +74,7 @@ app.use(function errorHandler(error, req, res, next) {
       console.error(error)
       response = { message: error.message, error }
     }
-    console.log("Testing 1 2 3...")
+    console.log(response, error)
     res.status(500).json(response)
 })
   
